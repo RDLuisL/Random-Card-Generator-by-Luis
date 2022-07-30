@@ -1,11 +1,23 @@
 /* eslint-disable */
-import "bootstrap";
+// desactivando Boostrap import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+//  desactivando imagen import "./assets/img/rigo-baby.jpg";
+// import "./assets/img/4geeks.ico";
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+window.onload = () => {
+  document.querySelector('.card'),classList.add('heart');
+  setTimeout(() => {
+    document.querySelector('.card').classList.remove('heart');
+    document.querySelector('.card').classList.add('heart');
+  }, 1000); // 1 segundo
+
+  }
+
+let generateRandomNumber (){
+  let numb = Math.floor(Math.random() * 12);
+  let numbers = ['A','2','3','4','5','6',]
+
+}
+
+}
