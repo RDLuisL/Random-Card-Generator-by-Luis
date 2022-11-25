@@ -1,7 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-  background: green;
+  background-color: #0a1215;
+  background-image: url(https://formacionuniversitaria.com/wp-content/uploads/croupier.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .card {
@@ -11,7 +15,8 @@ body {
   background: white;
   border-radius: 10px;
   padding: 20px;
-  margin: auto;
+  margin-top: 4%;
+  margin-left: 70%;
   border: 1px solid black;
   position: relative;
   text-align: center;
@@ -30,6 +35,10 @@ body {
   bottom: 10px;
   right: 20px;
   font-size: 60px;
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
 }
 
 .number {
